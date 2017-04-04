@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Basic -->
+    <title>Shells | Windows</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/windows//windows/images/favicon.png" sizes="16x16 32x32 64x64">
+
+    <!-- Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://jahed.github.io/windows">
+    <meta property="og:title" content="Shells | Windows">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_image_large">
+    <meta name="twitter:site" content="@hedjahead">
+    <meta name="twitter:title" content="Shells | Windows">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Misc -->
+    <meta name="google-site-verification" content="" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/windows/style/style.css">
+  </head>
+  <body class="">
+    
+
+<div class="nav dark">
+  <div class="nav-group">
+    <div class="nav-item show-mobile">
+      <span class="js-sidebar-toggle ">
+        <span class="icon-menu"></span>
+      </span>
+    </div>
+    <div class="nav-item">
+      <a class="logo-wrapper" href="http://jahed.github.io/windows" title="Windows "  >
+        <img src="/windows/images/windows-text.svg" alt="Windows" class="logo"/>
+        <span></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="nav-group right">
+    
+      <div class="nav-item show-desktop  separator">
+        <a class="link" href="http://github.com/jahed/windows"  >
+          <span>Source</span>
+        </a>
+      </div>
+    
+  </div>
+</div>
+
+<div class="sidebar">
+  <div class="panel">
+    <!--
+    <div class="panel-item">
+      <a class="" href="http://jahed.github.io/windows" title="Windows"  >
+        <span>Windows </span>
+      </a>
+    </div>
+    -->
+    
+      <div class="panel-item "">
+        <a class="" href="http://github.com/jahed/windows"  >
+          <span>Source</span>
+        </a>
+      </div>
+    
+  </div>
+
+  <div class="sidebar-content">
+    <div class="topcap">
+      <!--
+      <span class="title-sidebar">Windows</span>
+      -->
+      
+    </div>
+
+    
+
+    <ul class="toc">
+      
+        <li>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="../index.html" class="sidebar-link ">
+                  <span>Introduction</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+        <li>
+          
+            <div class="heading-toc">Terminal</div>
+          
+          <ul class="list-toc">
+            
+              
+              <li class="item-toc ">
+                <a href="index.html" class="sidebar-link ">
+                  <span>Terminal</span>
+                </a>
+              </li>
+            
+              
+              <li class="item-toc  current">
+                <a href="" class="sidebar-link  current">
+                  <span>Shells</span>
+                </a>
+              </li>
+            
+          </ul>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <div class="content-wrapper">
+    <div class="header-content">
+      <h1 class="title-page">Shells</h1>
+      
+
+      <!--
+      <div class="page-actions">
+        <div class="actions-group">
+          <a class="btn tertiary small round lowercase" href="https://github.com/jahed/windows/tree/master/docs/source/terminal/shells.md" target="_blank"><span class="icon-github"></span> <span>Edit on GitHub</span></a>
+          
+        </div>
+      </div>
+      -->
+    </div>
+
+    <div class="document-formatting">
+      <p>Windows ships with multiple shells. Let’s go through them.</p>
+<blockquote>
+<p>Note: Shells, terminals, consoles etc. have different meanings. Here I’m specifically talking about the prompt and environment they provide.</p>
+</blockquote>
+<h2 id="Command-Prompt"><a href="#Command-Prompt" class="headerlink" title="Command Prompt"></a>Command Prompt</h2><p><a href="https://en.wikipedia.org/wiki/Cmd.exe" target="_blank" rel="external">Command Prompt</a> (<code>cmd.exe</code>) is the oldest and most common terminals in Windows and most of the documentation related to Windows will refer to using this. My advice is to avoid it completely since as far as I can tell, Powershell does everything it can do, and more.</p>
+<h2 id="Powershell"><a href="#Powershell" class="headerlink" title="Powershell"></a>Powershell</h2><p><a href="https://en.wikipedia.org/wiki/PowerShell" target="_blank" rel="external">Powershell</a> is the latest official terminal for Windows. Considering this, I highly suggest getting familiar with it.</p>
+<p>One of the biggest improvements that came with Powershell is that it provides aliases to a lot of Unix-like commands.</p>
+<p>Powershell doesn’t <em>just</em> provide a terminal, however. It’s an entire framework with its own scripting language.</p>
+<h3 id="Powershell-ISE"><a href="#Powershell-ISE" class="headerlink" title="Powershell ISE"></a>Powershell ISE</h3><p>Powershell ISE is an IDE for Powershell scripting, allowing you to debug scripts and have multiple tabs per window.</p>
+<h2 id="Bash-on-Ubuntu-on-Windows"><a href="#Bash-on-Ubuntu-on-Windows" class="headerlink" title="Bash on Ubuntu on Windows"></a>Bash on Ubuntu on Windows</h2><p>One of the latest offerings that came with Windows 10 since the <a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux" target="_blank" rel="external">Linux Subsystem</a>. This is essentially a layer on top of Windows that provides a complete Ubuntu environment.</p>
+<p>However, the Linux Subsystem is still in Beta and so I suggest avoiding it as much as possible. Updates are rarely released outside of their Windows Beta Participants and there are a lot of missing features. The biggest one at the point of writing this is the lack of being able to list network interfaces which a lot of web-related libraries require.</p>
+<h2 id="Cygwin-MinGW"><a href="#Cygwin-MinGW" class="headerlink" title="Cygwin, MinGW"></a>Cygwin, MinGW</h2><p><a href="https://en.wikipedia.org/wiki/Cygwin" target="_blank" rel="external">Cygwin</a> provides a complete Unix environment within Windows with Cygwin-specific builds of the most popular tools available on Unix-like platforms including GCC. As such, it can compile programs to run on Windows via Cygwin and has its own <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell" target="_blank" rel="external">Bash</a>) shell.</p>
+<p><a href="https://en.wikipedia.org/wiki/MinGW" target="_blank" rel="external">MinGW</a> is a fork of Cygwin with different design goals. Unlike Cygwin, it allows compiling programs to run on Windows without needing to go through another layer.</p>
+<p>I personally haven’t had the need to use the major capabilities of what Cygwin and MinGW provide over the alternatives so I can’t recommend either.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>To conclude, for general development on Windows, I suggest using Powershell as it’s officially supported by Microsoft and provides useful aliases to Unix commands without needed to have an entire Unix layer on top of your Windows installation.</p>
+
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div class="content-wrapper">
+      
+      
+        <a class="link primary prev"
+          href="index.html">
+          <span class="icon-arrow-left-alt"></span>
+          <span class="subtitle-pagination">Previous</span>
+          Terminal
+        </a>
+      
+      
+    </div>
+  </div>
+
+  <div class="github">
+    <a class="link tertiary " href="https://github.com/jahed/windows/tree/master/docs/source/terminal/shells.md" target="_blank">
+      <span class="icon-github"></span>Edit on GitHub</a>
+  </div>
+
+  
+</div>
+
+    <script src="/windows/script/smooth-scroll.min.js"></script>
+    <script src="/windows/script/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/2.1.8/docsearch.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script>
+      // nectar ninja
+      (function(){
+        var handle = '@hedjahead';
+        var a = document.createElement('script');
+        var m = document.getElementsByTagName('script')[0];
+        a.async = 1;
+        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+        m.parentNode.insertBefore(a, m);
+      })();
+
+     
+      
+
+      // search box
+      
+
+      
+    </script>
+  </body>
+</html>
