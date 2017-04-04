@@ -9,7 +9,7 @@ Windows ships with multiple shells. Let's go through them.
 
 ## Command Prompt
 
-[Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) (`cmd.exe`) is the oldest and most common terminals in Windows and most of the documentation related to Windows will refer to using this. My advice is to avoid it completely since as far as I can tell, Powershell does everything it can do, and more.
+[Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) (`cmd.exe`) is the oldest and most common shell in Windows. Most of the documentation related to Windows will refer to using this. My advice is to avoid it completely since as far as I can tell, Powershell does everything it can do, and more.
 
 ## Powershell
 
@@ -25,7 +25,7 @@ Powershell ISE is an IDE for Powershell scripting, allowing you to debug scripts
 
 ## Bash on Ubuntu on Windows
 
-One of the latest offerings that came with Windows 10 since the [Linux Subsystem](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux). This is essentially a layer on top of Windows that provides a complete Ubuntu environment.
+One of the latest offerings that came with Windows 10 is the [Linux Subsystem](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux). This is essentially a layer on top of Windows that provides a complete Ubuntu environment.
 
 However, the Linux Subsystem is still in Beta and so I suggest avoiding it as much as possible. Updates are rarely released outside of their Windows Beta Participants and there are a lot of missing features. The biggest one at the point of writing this is the lack of being able to list network interfaces which a lot of web-related libraries require.
 
@@ -39,4 +39,4 @@ I personally haven't had the need to use the major capabilities of what Cygwin a
 
 ## Conclusion
 
-To conclude, for general development on Windows, I suggest using Powershell as it's officially supported by Microsoft and provides useful aliases to Unix commands without needed to have an entire Unix layer on top of your Windows installation.
+To conclude, for general development on Windows, I suggest using Powershell as it's officially supported by Microsoft. It provides useful aliases to Unix commands without needing to have an entire Unix layer on top of your Windows installation.
