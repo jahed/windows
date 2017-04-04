@@ -81,11 +81,11 @@ social_links:
   twitter: '@hedjahead'
 
 logo:
-  nav_mobile: windows/images/windows-text.svg
+  nav_mobile: /windows/images/windows-text.svg
   title: Windows
   subtitle:
   url: http://jahed.github.io/windows
-favicon: images/favicon.png
+favicon: /windows/images/favicon.png
 
 nav_links:
   'Source':
@@ -106,3 +106,4 @@ sidebar_categories:
     - index
   Terminal:
     - terminal/index
+    - terminal/shells
